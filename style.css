@@ -1,0 +1,137 @@
+html {
+    font-family: "Roboto Thin";
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+h1 {
+    border-bottom: thin solid darkgreen;
+    font-family: "American Typewriter";
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "American Typewriter";
+}
+
+h2 {
+    margin: -10px;
+    font-family: "American Typewriter";
+    color: #2B5834;
+}
+
+
+img {
+    width: 40%;
+    border-bottom: thick solid darkgreen;
+}
+
+.socials {
+    width: 3%;
+    border-bottom: none;
+    margin: 20px
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+}
+
+button {
+    width: 72px;
+    height: 24px;
+    margin-top: 30px;
+}
+
+label {
+    padding: 20px;
+}
+
+main {
+
+}
+
+.articleStart {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.articleEnd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 15px;
+}
+
+article {
+    padding-bottom: 30px;
+}
+
+.textArticleStart {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 15px;
+    margin-inline: 50px;
+}
+
+.description {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+
+    img {
+        width: 75%;
+    }
+
+    article, .articleEnd, .articleStart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start {
+        align-self: start;
+    }
+
+    .end {
+        align-self: end;
+    }
+
+
+}
